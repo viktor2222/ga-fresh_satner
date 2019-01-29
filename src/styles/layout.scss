@@ -90,3 +90,37 @@ a, a:hover{
     }
   }
 }
+//end index main styles
+//carousel styles
+.custom_dots {
+  text-align: center;
+  margin-top: 20px;
+  li {
+    display: inline-block;
+    button {
+      font-size: 0;
+      outline: none;
+      height: 10px;
+      width: 10px;
+      background: #d8d8d8;
+      border-radius: 17px;
+      margin-right: 10px;
+      border: 0;
+      &:hover {
+        cursor: pointer;
+        background: #a275ec;
+        height: 12px;
+        width: 12px;
+        transition: all .3s ease-in-out;
+      }
+    }
+  }
+  .slick-active {
+    button {
+      background: #884de9;
+      height: 12px;
+      width: 12px;
+    }
+  }
+}
+//end carousel

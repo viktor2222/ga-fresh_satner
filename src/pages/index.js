@@ -6,7 +6,9 @@ import SEO from '../components/seo'
 import MainSection from '../components/main-home'
 import AboutMyself from '../components/about-myself'
 import Services from '../components/services-component'
-import Portfolio from '../components/portfolio'
+
+import Carousel from '../components/carousel'
+
 
 const IndexPage = () => (
   <Layout>
@@ -88,7 +90,7 @@ const IndexPage = () => (
       </div>
     </div>
     <Services/>
-    <Portfolio/>
+    <Carousel/>
   </Layout>
 )
 
