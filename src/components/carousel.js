@@ -14,6 +14,8 @@ class SimpleSlider extends React.Component {
       speed: 4000,
       slidesToShow: 1,
       slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 7000,
       dotsClass: 'slick-dots custom_dots'
     };
     return (
