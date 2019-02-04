@@ -5,9 +5,9 @@ const preferDefault = m => m && m.default || m
 
 
 exports.components = {
-  "component---cache-dev-404-page-js": hot(preferDefault(require("/home/vpanchuk/Documents/learn-new-gatsby/ga-fresh_satner/.cache/dev-404-page.js"))),
-  "component---src-pages-404-js": hot(preferDefault(require("/home/vpanchuk/Documents/learn-new-gatsby/ga-fresh_satner/src/pages/404.js"))),
-  "component---src-pages-index-js": hot(preferDefault(require("/home/vpanchuk/Documents/learn-new-gatsby/ga-fresh_satner/src/pages/index.js"))),
-  "component---src-pages-page-2-js": hot(preferDefault(require("/home/vpanchuk/Documents/learn-new-gatsby/ga-fresh_satner/src/pages/page-2.js")))
+  "component---cache-dev-404-page-js": hot(preferDefault(require("D:\\poz-dev\\ga-fresh_satner\\.cache\\dev-404-page.js"))),
+  "component---src-pages-404-js": hot(preferDefault(require("D:\\poz-dev\\ga-fresh_satner\\src\\pages\\404.js"))),
+  "component---src-pages-index-js": hot(preferDefault(require("D:\\poz-dev\\ga-fresh_satner\\src\\pages\\index.js"))),
+  "component---src-pages-page-2-js": hot(preferDefault(require("D:\\poz-dev\\ga-fresh_satner\\src\\pages\\page-2.js")))
 }
 

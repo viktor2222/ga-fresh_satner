@@ -7,8 +7,24 @@ const masonryOptions = {
 
 const imagesLoadedOptions = { background: '.my-bg-image-el' }
 
+
+let elements = [];
+
+const imgId = [1011, 883, 1074, 823, 64, 65, 839, 314, 256, 316, 92,643];
+for(let i = 0; i< imgId.length; i++){
+	const ih = 200 + Math.floor(Math.random()*10)*15;
+	elements.push("https://unsplash.it/250/" + ih + "?image=" + imgId[i]);
+}
+//console.log(elements);
+
 class Gallery extends React.Component {
     render() {
+        if (this.props.elements === undefined) {
+            //console.log(this.props);
+            //console.log(this.props.elements);
+            return false
+        }
+
         const childElements = this.props.elements.map(function(element){
            return (
                 <li className="image-element-class">
@@ -16,9 +32,16 @@ class Gallery extends React.Component {
                 </li>
             );
         });
-    
+
+        // const childElements = elements.map(function(element){
+        //    return (
+        //         <li className="image-element-class">
+        //             <img src={element.src} alt="gallery item"/>
+        //         </li>
+        //     );
+        // });
+        
         return (
-            
             <Masonry
                 className={'my-gallery-class container'} // default ''
                 elementType={'ul'} // default 'div'

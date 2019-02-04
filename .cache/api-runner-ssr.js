@@ -1,8 +1,8 @@
 var plugins = [{
-      plugin: require('/home/vpanchuk/Documents/learn-new-gatsby/ga-fresh_satner/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('D:/poz-dev/ga-fresh_satner/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/home/vpanchuk/Documents/learn-new-gatsby/ga-fresh_satner/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      plugin: require('D:/poz-dev/ga-fresh_satner/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"gatsby-starter-default","short_name":"starter","start_url":"/","display":"minimal-ui","icon":"static/images/favicon.png"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
