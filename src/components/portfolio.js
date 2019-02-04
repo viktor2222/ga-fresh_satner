@@ -25,9 +25,9 @@ class Gallery extends React.Component {
             return false
         }
 
-        const childElements = this.props.elements.map(function(element){
+        const childElements = this.props.elements.map(function(element, index){
            return (
-                <li className="image-element-class">
+                <li className="image-element-class" key={index}>
                     <img src={element.src} alt="gallery item"/>
                 </li>
             );
