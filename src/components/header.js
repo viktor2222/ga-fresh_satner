@@ -14,7 +14,7 @@ const Header = () => (
     <div className="container">
     <div className={headerNav.menu}>
       <div className="d-flex flex-wrap justify-content-between align-items-center">
-      <Link to="/"><img src="./images/logo.png" alt="logo, satner" /></Link>
+      <Link to="/"><img src="/images/logo.png" alt="logo, satner" /></Link>
         <ul className="d-flex">
           <li><Link to="#">HOME</Link></li>
           <li><Link to="#">ABOUT</Link></li>

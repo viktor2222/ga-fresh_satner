@@ -17,7 +17,7 @@ export default () => (
           </div>
           <div className={Footer.author_info}>
             <div className="d-flex flex-column align-items-center">
-              <Link to="/"><img src="./images/logo.png" alt="logo, satner" /></Link>
+              <Link to="/"><img src="/images/logo.png" alt="logo, satner" /></Link>
               <p>© {new Date().getFullYear()}, Built with Viktor Panchuk</p>
               <Link to="https://www.upwork.com/fl/viktorpanchuk">Upwork</Link>
             </div>

@@ -9,7 +9,6 @@ import Services from '../components/services-component'
 import Gallery from '../components/portfolio'
 import Carousel from '../components/carousel'
 
-
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
@@ -91,7 +90,6 @@ const IndexPage = () => (
     </div>
     <Services/>
     <Gallery/>
-      
     <Carousel/>
   </Layout>
 )
