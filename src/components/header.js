@@ -16,13 +16,11 @@ const Header = () => (
       <div className="d-flex flex-wrap justify-content-between align-items-center">
       <Link to="/"><img src="/images/logo.png" alt="logo, satner" /></Link>
         <ul className="d-flex">
-          <li><Link to="#">HOME</Link></li>
-          <li><Link to="#">ABOUT</Link></li>
-          <li><Link to="#">SERVICES</Link></li>
-          <li><Link to="#">PORTFOLIO</Link></li>
-          <li><Link to="#">PAGES</Link></li>
+          <li><Link to="/">HOME</Link></li>
+          <li><Link to="/about">ABOUT</Link></li>
+          <li><Link to="/services">SERVICES</Link></li>
+          <li><Link to="/portfolio">PORTFOLIO</Link></li>
           <li><Link to="#">BLOG</Link></li>
-          <li><Link to="#">CONTACT</Link></li>
         </ul>
       </div>
     </div>
