@@ -21,6 +21,7 @@
         width: 100%;
         z-index: 5;
         position: relative;
+        transition: .3s ease-in-out;
     }
     .plus_item {
         font-size: 8rem;
@@ -47,6 +48,7 @@
     &:hover {
         .tabs_img_item {
             opacity: .3;
+            transition: .3s ease-in-out;
         }
         .overlay_img {
             background: rgba(77,87,222,.5);
@@ -67,4 +69,10 @@
     font-size: 38px;
     font-weight: 600;
     line-height: 50px;
+}
+
+@media only screen and (max-width: 670px) {
+    .title_portfolio {
+        margin: 5rem 0 2rem;
+    }
 }

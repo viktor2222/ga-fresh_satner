@@ -8,7 +8,7 @@ import SEO from '../components/seo'
 const Portfolio = () => (
   <Layout>
     <SEO title="Portfolio" />
-    <div className="container">
+    <div className="container mobile_main_bg">
       <div className="main_title_bg">
         <h1>PORTFOLIO</h1>
         <a href="/">Home</a>

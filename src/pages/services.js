@@ -9,7 +9,7 @@ import SEO from '../components/seo'
 const ServicesPage = () => (
   <Layout>
     <SEO title="Services" />
-    <div className="container">
+    <div className="container mobile_main_bg">
       <div className="main_title_bg">
         <h1>SERVICES</h1>
         <a href="/">Home</a>

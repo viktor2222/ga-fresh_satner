@@ -45,12 +45,13 @@ const data = [
 
 const Shot = (props) => (
     <div className="col-md-4">
-      <div className={Portfolio.container_gallery_item}>
-        <img className={Portfolio.tabs_img_item} src={props.info.src} alt="images gallery" onClick={() => props.fromChildToParentCallback(props.info.key)}/>
-        <span className={Portfolio.plus_item}>+</span>
-        <div className={Portfolio.overlay_img}></div>
-      </div>    
-      
+      <div className="d-flex justify-content-center">
+        <div className={Portfolio.container_gallery_item}>
+          <img className={Portfolio.tabs_img_item} src={props.info.src} alt="images gallery" onClick={() => props.fromChildToParentCallback(props.info.key)}/>
+          <span className={Portfolio.plus_item}>+</span>
+          <div className={Portfolio.overlay_img}></div>
+        </div>
+      </div>
     </div>
 );
 
@@ -147,7 +148,7 @@ class Gallery extends React.Component {
       <div className="container">
         <h3 className={Portfolio.title_portfolio}>QUALITY WORK <br/> RECENTLY DONE PROJECT</h3>
         <div className={Portfolio.tabs_list}>
-          <div className="d-flex">
+          <div className="d-flex flex-wrap">
             <p className={this.state.filter === 'all' ? 'tabs_selected' : ''} onClick={() => { this.filterShots('all') }}>ALL</p>
             <p className={this.state.filter === 'popular' ? 'tabs_selected' : ''} onClick={() => { this.filterShots('popular') }}>POPULAR</p>
             <p className={this.state.filter === 'latest' ? 'tabs_selected' : ''} onClick={() => { this.filterShots('latest') }}>LATEST</p>
