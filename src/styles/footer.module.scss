@@ -1,6 +1,6 @@
 .bottom_bg {
   background: url("../../static/images/subscribe-bg.png") no-repeat center top;
-  padding: 10rem 0;
+  padding: 10rem 10px;
   text-align: center;
   color: white;
   margin-bottom: 8rem;
@@ -60,5 +60,34 @@
   }
   p {
     margin-bottom: 0;
+  }
+  h5 {
+    margin-bottom: 0;
+  }
+}
+.social_menu {
+  svg {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    margin: 0 20px;
+    &:hover path {
+      fill: #874ee9;
+    }
+  }
+  margin: 15px 0;
+}
+
+//media
+@media only screen and (max-width: 767px) {
+  .container_form {
+    button {
+      margin-left: 0;
+      margin-top: 3.2rem;
+    }
+  }
+  .bottom_bg {
+    padding: 5rem 20px;
+    margin-bottom: 5rem;
   }
 }

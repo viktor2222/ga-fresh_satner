@@ -13,6 +13,7 @@
 .h2 {
     font-size: 40px;
     position: relative;
+    margin-top: 4rem;
     &::after {
         content: '';
         position: absolute;
@@ -68,4 +69,12 @@
 }
 .p {
     color: #959595;
+}
+
+
+//media 
+@media only screen and (max-width: 546px) {
+    .h2::after {
+        display: none;
+    }
 }
