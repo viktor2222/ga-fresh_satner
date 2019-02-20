@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900');
 @font-face {
   font-display: swap;
   font-family: 'Rubik';
-  src: local('Rubic'), url('../../static/font/Rubik-Medium.ttf') format('ttf');
+  src: local('Rubic'),
+  url('../../static/font/Rubik-Regular.ttf') format('ttf'),
+  url('../../static/font/Rubik-Bold.ttf') format('ttf');
 }
 *{
   margin: 0;
